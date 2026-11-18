@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="100%" height="100%">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.08" />
+    </filter>
+  </defs>
+  <!-- Google Developer Brackets < > -->
+  <g transform="translate(10, 15)">
+    <!-- Left bracket < : Red top half, Blue bottom half -->
+    <path d="M 45 10 L 15 45 L 30 60 L 60 25 Z" fill="#EA4335" />
+    <path d="M 15 45 L 45 80 L 60 65 L 30 50 Z" fill="#4285F4" />
+    
+    <!-- Right bracket > : Green top half, Yellow bottom half -->
+    <path d="M 55 10 L 85 45 L 70 60 L 40 25 Z" fill="#34A853" />
+    <path d="M 85 45 L 55 80 L 40 65 L 70 50 Z" fill="#FBBC05" />
+  </g>
+  <!-- GDG on Campus Text -->
+  <text x="115" y="48" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="800" font-size="28" fill="#1e293b" letter-spacing="-0.5">GDG</text>
+  <text x="180" y="48" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="500" font-size="20" fill="#475569">on Campus</text>
+  <text x="115" y="78" font-family="'Space Grotesk', system-ui, -apple-system, sans-serif" font-weight="700" font-size="16" fill="#4285F4" letter-spacing="1.5">RIT HASSAN</text>
+  <text x="115" y="96" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="500" font-size="11" fill="#64748b">Rajeev Institute of Technology</text>
+</svg>
